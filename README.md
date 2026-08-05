@@ -71,3 +71,36 @@ The model predicts whether the loan application is:
 # Machine Learning Workflow
 
 The project follows a standard machine learning workflow:
+
+---
+# Project Goal
+
+The goal of this project is to develop a machine learning-powered Loan Approval Prediction API.
+
+The final product will be a REST API that allows users or external applications to submit loan applicant information and receive an automated prediction of whether the loan application is likely to be approved or rejected.
+
+The API will use a trained machine learning classification model to analyze applicant financial information and return predictions in real time.
+
+The completed system will include:
+
+- A trained machine learning model for loan approval prediction
+- A preprocessing pipeline to handle incoming data
+- A REST API endpoint for making predictions
+- Model loading and inference functionality
+- A structured response containing the prediction result
+
+The final workflow will be:
+
+User/Application
+        |
+        ↓
+Send Loan Information to API
+        |
+        ↓
+API Processes Input Data
+        |
+        ↓
+Machine Learning Model Makes Prediction
+        |
+        ↓
+Return Loan Approval Result
